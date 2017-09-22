@@ -1,3 +1,5 @@
+# Incomplete code
+# Work in progress...!
 class AutoAI:
     def update(self,snake,foodList,asciicanvas):
         pathFind(snake,)
