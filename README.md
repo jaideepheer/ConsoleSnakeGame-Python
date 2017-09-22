@@ -4,7 +4,7 @@ A snake game written in Python from scratch.
 ## How to play
 Download the .py files and place them in a folder.
 
-Install `Python 3.6.2`
+#### Install `Python 3.6.2`(other versions might give you problems)
 
 > If you are using a diffent console than the windows command prompt, edit the "ASCIICanvas.py" file and change the `CLAERCONSOLECOMMAND` variable to a value that will clear your console's window.
 
