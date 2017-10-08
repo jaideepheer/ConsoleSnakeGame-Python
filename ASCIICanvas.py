@@ -8,7 +8,7 @@ class ASCIICanvas:
     y=0
     renderCache={}
     def writeToRenderCache(self,ch,x,y):
-        if (x>=self.x+self.width or x<self.x) or (y>=self.y+self.height or y<self.y):
+        if (not self.isInCanvas(x,y)):
             # Out of Render Zone
             return
         self.renderCache[(x,y)] = ch
