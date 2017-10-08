@@ -15,12 +15,7 @@ class ASCIICanvas:
     def clearRenderCache(self):
         self.renderCache.clear()
     def getChar(self,x,y):
-        c = " "
-        try:
-            c = self.renderCache[(x,y)]
-        except:
-            c = " "
-        return c
+        return self.renderCache.get((x,y)," ")
     def __init__(self,width,height):
         self.setDimensions(width,height)
     def update(self):
